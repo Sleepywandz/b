@@ -1,8 +1,10 @@
 const keepAlive = require(`./server`);
+require('dotenv').config();
+const secret = process.env.TOKEN;
 const { AoiClient, LoadCommands } = require("aoi.js");
 
 const client = new AoiClient({
-  token: "MTMxNDY0ODI2OTM5Mjk2OTc3Mg.GZ2rkl.qJsTk3YgtPjHb44aS29-oKrwLZKhgPlskd8tPg",
+  token: secret,
   prefix: "!",
   intents: ["MessageContent", "Guilds", "GuildMessages"],
   events: ["onMessage", "onInteractionCreate"],
