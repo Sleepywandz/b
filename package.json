@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@akarui/aoi.db": "^2.2.7",
+    "aoi.js": "^6.9.0",
+    "express": "^4.21.2"
+  }
+}
