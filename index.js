@@ -1,4 +1,4 @@
-const keepAlive = require(`./server`);
+const keep_alive = require('./keep_alive.js')
 require('dotenv').config();
 const secret = process.env.TOKEN;
 const { AoiClient, LoadCommands } = require("aoi.js");
@@ -26,5 +26,3 @@ client.status({
   time: 12,
   url: "https://www.youtube.com/watch?v=1892ujwIooo",
 });
-
-keepAlive();

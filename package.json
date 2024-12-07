@@ -3,6 +3,7 @@
     "@akarui/aoi.db": "^2.2.7",
     "aoi.js": "^6.9.0",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "http": "^0.0.1-security"
   }
 }
